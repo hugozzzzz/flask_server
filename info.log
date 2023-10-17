@@ -1,0 +1,45 @@
+[I 230728 16:54:22 views:30] success
+[E 230730 21:13:56 views:34] 发生异常：int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[E 230730 21:19:35 views:34] 发生异常：int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[E 230730 21:20:19 views:35] 发生异常：int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[E 230730 21:20:21 views:35] 发生异常：int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+[E 230731 16:06:44 views:37] 发生异常：(pymysql.err.OperationalError) (1054, "Unknown column 'name' in 'field list'")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': '', 'cardId': '', 'password': '', 'status': None, 'role': '', 'create_date': datetime.datetime(2023, 7, 31, 16, 6, 44, 802382)}]
+    (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[E 230731 16:07:05 views:37] 发生异常：(pymysql.err.OperationalError) (1054, "Unknown column 'name' in 'field list'")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': '', 'cardId': '', 'password': '', 'status': None, 'role': '', 'create_date': datetime.datetime(2023, 7, 31, 16, 7, 5, 108442)}]
+    (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[E 230731 16:09:13 views:37] 发生异常：(pymysql.err.OperationalError) (1054, "Unknown column 'name' in 'field list'")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': '321', 'cardId': '-1', 'password': '31', 'status': None, 'role': '-1', 'create_date': datetime.datetime(2023, 7, 31, 16, 9, 13, 124547)}]
+    (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[E 230731 17:03:11 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:03:22 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:04:22 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:04:29 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:04:57 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:05:09 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:05:49 views:50] 发生异常：Column expression or FROM clause expected, got <module 'db.bs_dict' from '/Users/hugo/Mine/0-Project/Python/Flask/db/bs_dict.py'>.
+[E 230731 17:14:19 views:37] 发生异常：(pymysql.err.DataError) (1366, "Incorrect integer value: 'das' for column 'cardId' at row 1")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': 'dsas', 'cardId': 'das', 'password': 'a', 'status': None, 'role': '01', 'create_date': datetime.datetime(2023, 7, 31, 17, 14, 19, 278880)}]
+    (Background on this error at: https://sqlalche.me/e/14/9h9h)
+[E 230731 17:15:32 views:37] 发生异常：(pymysql.err.DataError) (1366, "Incorrect integer value: 'das' for column 'cardId' at row 1")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': 'dsas', 'cardId': 'das', 'password': 'a', 'status': None, 'role': '01', 'create_date': datetime.datetime(2023, 7, 31, 17, 15, 24, 938597)}]
+    (Background on this error at: https://sqlalche.me/e/14/9h9h)
+[E 230731 18:08:45 views:37] 发生异常：(pymysql.err.DataError) (1366, "Incorrect integer value: 'aas' for column 'cardId' at row 1")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': '1ss', 'cardId': 'aas', 'password': '1', 'status': None, 'role': '01', 'create_date': datetime.datetime(2023, 7, 31, 18, 8, 45, 187779)}]
+    (Background on this error at: https://sqlalche.me/e/14/9h9h)
+[E 230908 15:33:38 views:47] 发生异常：'bs_user' object has no attribute 'crete_date'
+[E 230908 15:42:56 views:47] 发生异常：'NoneType' object has no attribute 'strftime'
+[E 230908 16:12:31 views:50] 发生异常：'list' object has no attribute 'offset'
+[E 230908 16:13:22 views:50] 发生异常：unsupported operand type(s) for -: 'str' and 'int'
+[E 230908 16:13:37 views:50] 发生异常：unsupported operand type(s) for -: 'str' and 'int'
+[E 230921 20:53:04 views:37] 发生异常：(pymysql.err.DataError) (1366, "Incorrect integer value: 'dsa' for column 'cardId' at row 1")
+    [SQL: INSERT INTO bs_user (name, `cardId`, password, `status`, `role`, create_date) VALUES (%(name)s, %(cardId)s, %(password)s, %(status)s, %(role)s, %(create_date)s)]
+    [parameters: {'name': '斯顿撒旦', 'cardId': 'dsa', 'password': 'dadad', 'status': None, 'role': '01', 'create_date': datetime.datetime(2023, 9, 21, 20, 53, 4, 159417)}]
+    (Background on this error at: https://sqlalche.me/e/14/9h9h)
